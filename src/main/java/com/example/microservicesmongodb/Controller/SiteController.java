@@ -11,7 +11,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/sites")
+@RequestMapping("/api/mongo/sites")
 public class SiteController {
 
     @Autowired

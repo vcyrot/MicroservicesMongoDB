@@ -13,7 +13,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/sports")
+@RequestMapping("/api/mongo/sports")
 public class SportController {
 
     @Autowired
